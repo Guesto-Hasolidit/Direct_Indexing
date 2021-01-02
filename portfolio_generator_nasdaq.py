@@ -49,9 +49,9 @@ data["Final_Diff"] = data["Ideal_Alloc"] - data["Port_Alloc"]
 
 data.to_csv(OUT_FILE)
 
-print(abs(data.Weight-data.Port_Weight).sum()/2)
+#print(abs(data.Weight-data.Port_Weight).sum()/2)
 
-print(data.iloc[data.Final_Diff.abs().nlargest(20).index])
+#print(data.iloc[data.Final_Diff.abs().nlargest(20).index])
 
 ##vals = []
 ##for cnt in data.Country.unique():
